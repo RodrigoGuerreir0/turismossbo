@@ -1,0 +1,88 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*Padriniza uma fonte*/
+    line-height: 1.6;
+    /*Altura da linha*/
+    background-color: rgb(238, 231, 134);
+}
+
+.container {
+    margin: 10px auto;
+    /*define o tamanho da margin*/
+    width: 1000px;
+    /*Largura do container*/
+}
+
+.container h1 {
+    text-align: center;
+    /*Centraliza um texto*/
+}
+
+
+.lugar {
+    border: 2px solid;
+    /*Adiciona a borda e Tamanho*/
+    border-color: #484949 #000 #484949 #000;
+    /*Mudar as cores das boradas*/
+    background-color: rgb(253, 250, 210);
+    /*Coloca cor no fundo do texto*/
+    margin-bottom: 10px;
+    /*Cria uma margem onde você escolher Baixo,Cima,Direita ou Esquerda da tabela */
+    padding: 10px;
+    /*Adiciona espaço para todos os lados dentro da borda*/
+    width: 700px;
+    float: left;
+}
+
+.lugar h2 {
+    border-bottom: 1px dashed #000;
+    /*Coloca uma linha em baixo do titulo h2*/
+    margin: 0;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
+
+.lugar img {
+    border: 1px solid #000;
+    float: left;
+    /*Alinhamento da foto*/
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    height: 100px;
+    /*DDefine o tamanho da imagem*/
+}
+
+.rodape {
+    font-size: 12px;
+    text-align: center;
+}
+
+.lateral {
+    font-family: cursive;
+    border: 1px solid;
+    background-color: rgb(253, 250, 210);
+    padding: 10px;
+    float: right;
+    width: 250px;
+    position:absolute;
+    top: 1;
+    transform:translate(280%);
+}
+
+.lateral h3 {
+    font-size: 40x;
+    margin-top: 0;
+}
+
+.lateral ol {
+    font-size: 20px;
+}
+.clear{
+    clear:both;
+}
